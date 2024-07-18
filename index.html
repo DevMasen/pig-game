@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pig Game</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="show-winner"></h1>
+    </header>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player 1</h2>
+        <p class="score" id="score--0">43</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--0">0</p>
+        </div>
+      </section>
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Player 2</h2>
+        <p class="score" id="score--1">24</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score" id="current--1">0</p>
+        </div>
+      </section>
+
+      <img src="dice-5.png" alt="Playing dice" class="dice" />
+      <button class="btn btn--new">🔄 New game</button>
+      <button class="btn btn--roll">🎲 Roll dice</button>
+      <button class="btn btn--hold">📥 Hold</button>
+
+      <button class="info">!</button>
+    </main>
+    <section class="info-modal hidden">
+      <div class="close-info">&times;</div>
+      <h5>How to play 👀</h5>
+      <p>
+        Welcome to Pig Game 🐽. You should play with your friend. <br />
+        In this game you roll the dice as much as you want and the scores <br />
+        from the dice add to your current score and you could hold it to the
+        <br />
+        main score whenever you want, But if the dice rolls to "one" <br />
+        your current score will be 0 and the player will change.
+      </p>
+      <br />
+      <h5>How to Win 🎉</h5>
+      <p>
+        If your scores reach 100 You will be the winnnneeeeer! 🥳 <br />
+        Have fun and enjoy the game! 🤗
+      </p>
+    </section>
+    <div class="overlay hidden"></div>
+    <footer>
+      <div class="copyr">Masen<sup>&COPY;</sup></div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
