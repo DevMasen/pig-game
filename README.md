@@ -1,5 +1,8 @@
 <h1 align="center">Pig Game🐷</h1>
+
+<p align="center">
 <img src="./banner.png">
+</p>
 
 ### A dice game with HTML, CSS and dear Javascript : )
 ### Main project by "Jonas Schmedtmann" from "Udemy"
